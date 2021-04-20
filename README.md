@@ -52,11 +52,23 @@ Before you start working on your project, you'll pitch your project idea to your
 instructors for approval and feedback. 
 
 For your project pitch, you should include:
-
 - The basic story of your application
+1. Song lyrics app that display and play the song
+
 - The core features of your MVP
+1. Users should see a list of lyrics. 
+2. Users should be able to pick a specific set of lyrics to display in detail.
+
 - The API data you'll be using and how you'll use it
+https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song/search
+GET=> https://api.lyrics.ovh/v1/Coldplay/Adventure of a Lifetime
+
+
+
+
 - Challenges you expect to face
+Not solid on code, especially after receive json data.
+
 - How you are meeting the requirements of the project
 
 Feel free to send this pitch to your instructor via slack asynchronously. 
@@ -91,6 +103,7 @@ instructors when asking for help. In addition to writing everything down, we
 also recommend the following to help stay organized and on track:
 
 - Describe/sketch your ideas (use diagrams!).
+
 - Start by creating a frontend directory with the basic files you'll need
 - Next, build enough code to get some API data to work with. Don't worry about
   building all of your async code yet, just get to the point where you can
